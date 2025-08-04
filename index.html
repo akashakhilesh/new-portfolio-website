@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash K A - Developer & Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-cube"></div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">AKASH</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#hero" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hi, I'm</span>
+                        <span class="title-line gradient-text" id="typing-text">Akash K A</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="subtitle-text" id="subtitle-typing">Developer & Analyst</span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description fade-in">
+                        Passionate developer and data analyst with expertise in creating impactful solutions through code and data insights. Specialized in full-stack development, data visualization, and machine learning.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn--primary">View My Work</a>
+                        <a href="#contact" class="btn btn--outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-visual">
+                        <div class="geometric-shapes">
+                            <div class="cube-container">
+                                <div class="cube">
+                                    <div class="face front"></div>
+                                    <div class="face back"></div>
+                                    <div class="face right"></div>
+                                    <div class="face left"></div>
+                                    <div class="face top"></div>
+                                    <div class="face bottom"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-image-container">
+                        <div class="profile-image-wrapper">
+                            <div class="profile-background-circle"></div>
+                            <div class="profile-image">
+                                <div class="profile-avatar">
+                                    <div class="avatar-initials">AK</div>
+                                    <div class="avatar-title">Developer</div>
+                                    <div class="avatar-subtitle">& Analyst</div>
+                                </div>
+                            </div>
+                            <div class="profile-decorations">
+                                <div class="decoration decoration-1"></div>
+                                <div class="decoration decoration-2"></div>
+                                <div class="decoration decoration-3"></div>
+                            </div>
+                        </div>
+                        <div class="profile-info-badge">
+                            <div class="badge-content">
+                                <div class="badge-icon">💼</div>
+                                <div class="badge-text">
+                                    <div class="badge-title">Akash K A</div>
+                                    <div class="badge-subtitle">Full Stack Developer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-text reveal-text">
+                        <p>I'm a passionate developer and data analyst who loves turning complex problems into elegant solutions. With a strong foundation in both software development and data science, I bridge the gap between technical implementation and business insights.</p>
+                        <p>My journey in technology has led me through various domains, from creating interactive web applications to building comprehensive data visualization dashboards. I believe in the power of data-driven decisions and clean, efficient code.</p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎯</div>
+                                <div class="highlight-content">
+                                    <h4>Problem Solver</h4>
+                                    <p>Turning complex challenges into innovative solutions</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">📊</div>
+                                <div class="highlight-content">
+                                    <h4>Data Driven</h4>
+                                    <p>Making informed decisions through data analysis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number counter" data-target="7">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number counter" data-target="2">0</div>
+                            <div class="stat-label">Internships</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number counter" data-target="8">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-category" data-category="Programming">
+                        <h3 class="category-title">Programming</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill="Python" data-level="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="JavaScript" data-level="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="Frontend">
+                        <h3 class="category-title">Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill="React" data-level="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="HTML/CSS" data-level="95">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="Analytics">
+                        <h3 class="category-title">Analytics</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill="Power BI" data-level="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="Data Visualization" data-level="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Visualization</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="Database">
+                        <h3 class="category-title">Database & ML</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill="SQL" data-level="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="Machine Learning" data-level="75">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Analytics">Analytics</button>
+                <button class="filter-btn" data-filter="Frontend">Frontend</button>
+                <button class="filter-btn" data-filter="ML">Machine Learning</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="Analytics">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Data Analysis</span>
+                                <span class="tech-tag">Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TATA Virtual Internship</h3>
+                        <p class="project-subtitle">Data Visualisation: Empowering Business with Effective Insights</p>
+                        <p class="project-description">Comprehensive data visualization project focusing on business intelligence and analytics using advanced visualization techniques.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/tata-internship/tree/main" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Analytics">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">Data Analytics</span>
+                                <span class="tech-tag">Business Intelligence</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PWC Virtual Internship</h3>
+                        <p class="project-subtitle">Power BI in Data Analytics in Virtual Case Experience</p>
+                        <p class="project-description">Advanced Power BI implementation for comprehensive data analytics and business intelligence reporting.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/pwc-internship" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Analytics">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Interactive Dashboard</span>
+                                <span class="tech-tag">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">World CO2 Emission Dashboard</h3>
+                        <p class="project-subtitle">Interactive Environmental Data Analysis</p>
+                        <p class="project-description">Interactive dashboard analyzing global CO2 emissions from 1788-2020 using Python for environmental insights.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/world-co2-emission" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Frontend">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">React Calculator</h3>
+                        <p class="project-subtitle">Modern Web Application</p>
+                        <p class="project-description">A sleek and responsive calculator application built with ReactJS showcasing modern frontend development practices.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/calculator" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ML">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Location Identifier</h3>
+                        <p class="project-subtitle">Machine Learning Image Recognition</p>
+                        <p class="project-description">Machine learning project that identifies different locations in Asia from images using advanced computer vision techniques.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/identify-locaion-in-asia" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Analytics">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Data Analysis</span>
+                                <span class="tech-tag">Database</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Analysis with SQL</h3>
+                        <p class="project-subtitle">Sales Data Analytics</p>
+                        <p class="project-description">Comprehensive analysis of sales datasets using SQL for business insights and data-driven decision making.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/akashakhilesh/sales" target="_blank" class="btn btn--sm btn--primary">View Code</a>
+                            <button class="btn btn--sm btn--outline project-expand">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">📊</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Data Analyst Intern</h3>
+                        <div class="timeline-company">TATA Group</div>
+                        <div class="timeline-period">2023</div>
+                        <p class="timeline-description">Worked on data visualization and business intelligence projects, creating impactful insights for business decisions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">💼</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Power BI Developer</h3>
+                        <div class="timeline-company">PWC</div>
+                        <div class="timeline-period">2023</div>
+                        <p class="timeline-description">Developed comprehensive dashboards and analytics solutions using Power BI for enhanced business intelligence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>akashakhilesh087@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 8157943769</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Thrissur, Kerala, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/akash-k-a-6235b1224/" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/akashakhilesh" target="_blank" class="social-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-control" placeholder=" " required>
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder=" " required>
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder=" " required>
+                            <label for="subject" class="form-label">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-control" rows="5" placeholder=" " required></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Akash K A. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
